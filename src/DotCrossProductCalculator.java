@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 // 创建能够判定是否是数字的类
-public class Calculator
+public class DotCrossProductCalculator
 {
     private static boolean isNumber(String str)
     {
