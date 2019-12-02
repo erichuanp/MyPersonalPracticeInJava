@@ -120,7 +120,8 @@ public class DotCrossProductCalculator
             continueOrNot = continueOrNot.toUpperCase();
 
             // 如果答案为非YES则结束程序
-            if (!continueOrNot.equals("YES"))
+            wantContinue = true;
+            if (continueOrNot.equals("no"))
             {
                 System.out.println("The program is end. ");
                 wantContinue = false;
